@@ -5,7 +5,6 @@ C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Co
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Api.runtimeconfig.json
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Api.runtimeconfig.dev.json
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Api.dll
-C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\ref\Api.dll
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Api.pdb
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -66,3 +65,5 @@ C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Co
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Infrastructure.dll
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\bin\Debug\net5.0\Core.pdb
+C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\obj\Debug\net5.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Api\obj\Debug\net5.0\refint\Api.dll

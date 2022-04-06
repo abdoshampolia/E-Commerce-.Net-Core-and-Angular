@@ -1,6 +1,5 @@
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\bin\Debug\net5.0\Core.deps.json
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\bin\Debug\net5.0\Core.dll
-C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\bin\Debug\net5.0\ref\Core.dll
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\bin\Debug\net5.0\Core.pdb
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\obj\Debug\net5.0\Core.csproj.AssemblyReference.cache
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@ C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Co
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\obj\Debug\net5.0\Core.dll
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\obj\Debug\net5.0\ref\Core.dll
 C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\Abdulrahman\Desktop\E-Commerce .Net Core and Angular\E-Commerce-.Net-Core-and-Angular\SKINET\Core\obj\Debug\net5.0\refint\Core.dll

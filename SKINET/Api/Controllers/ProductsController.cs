@@ -1,5 +1,6 @@
 ﻿
 using Core.Entities;
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -15,18 +16,18 @@ namespace Api.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private readonly StoreContext _context;
+        private readonly IProductRepository repo;
 
-        public ProductsController(StoreContext context )
+        public ProductsController(IProductRepository repo  )
         {
-            this._context = context;
+            this.repo = repo;
         }
 
         // GET: api/<ProductsController>
         [HttpGet]
         public async Task <ActionResult<List<Product>>> GetProducts()
         {
-            var products = await _context.Products.ToListAsync();
+            var products = await repo.GetProductsAsync();
             return Ok(products);   
 
         }
@@ -36,27 +37,29 @@ namespace Api.Controllers
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
 
-            var product = await _context.Products.FindAsync(id);
+            var product = await repo.GetProductByIdAsync(id);
 
             return Ok (product);  
         }
 
-        // POST api/<ProductsController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrand()
         {
+
+
+            return Ok( await repo.GetProductBrandsAsync());
+
         }
 
-        // PUT api/<ProductsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
         {
+
+
+            return Ok(await repo.GetProductTypesAsync());
+
         }
 
-        // DELETE api/<ProductsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
